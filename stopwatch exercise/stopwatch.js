@@ -1,6 +1,5 @@
 function StopWatch() {
     let startingTime, endingTime, running, duration = 0;
-    
 
     this.start = function() {
         if(running) {
