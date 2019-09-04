@@ -17,7 +17,7 @@ function Circle(radius) {
         computeOptimumLocation(0.1);
         console.log('draw');
     }
-                                // defaultLocation here is a property with getter and setter
+                                // defaultLocation
     Object.defineProperty(this, 'defaultLocation', {
         // getter is meant for read-only
         get: function() {
